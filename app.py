@@ -4,7 +4,7 @@ from langchain.schema.runnable.config import RunnableConfig
 from langchain.memory import ConversationBufferMemory
 import chainlit as cl
 import yaml
-from langchain.chat_models import ChatOpenAI as GeminiPro15
+from langchain_openai import ChatOpenAI as GeminiPro15
 import os
 from dotenv import load_dotenv
 
