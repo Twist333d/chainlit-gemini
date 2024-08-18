@@ -13,19 +13,17 @@ This project implements a chat interface using Chainlit and LangChain, powered b
 
 ## Supported Functionalities
 
-- Natural language conversations
-- Code generation and explanation
-- Task planning and management
-- Data analysis assistance
-- Customizable system prompts
+- Supports Gemini 1.5 Pro model only
+- Uses langchain openai library to connect to open router
 
 ## Setup
 
 1. Clone the repository
+2. Setup poetry environment
 2. Install dependencies: `poetry install`
 3. Set up your `.env` file with your OpenRouter API key
 4. Customize `prompts.yaml` with your desired system prompt
-5. Run the application: `poetry run chainlit run app.py`
+5. Run the application: `poetry run chainlit run app.py` or `chainlit run app.py`
 
 ## Requirements
 
