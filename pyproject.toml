@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "gemini-chainlit"
+name = "chainlit-gemini"
 version = "0.1.0"
-description = ""
+description = "Chainlit UI for chatting with Gemini 1.5 Pro using Open Router"
 authors = ["a-zuev-pc <azuev@outlook.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -13,7 +14,6 @@ langchain = "^0.2.14"
 pyyaml = "^6.0.2"
 langchain-community = "^0.2.12"
 langchain-openai = "^0.1.22"
-git-filter-repo = "^2.45.0"
 
 
 [build-system]
