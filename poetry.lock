@@ -553,6 +553,17 @@ files = [
 ]
 
 [[package]]
+name = "git-filter-repo"
+version = "2.45.0"
+description = "Quickly rewrite git repository history"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "git_filter_repo-2.45.0-py3-none-any.whl", hash = "sha256:63cd3208b92309e473e3d69e90195b445751d34be16880f6ffd5998c846bdefd"},
+    {file = "git_filter_repo-2.45.0.tar.gz", hash = "sha256:2fa80ff8da54382a6e189bc1522dc986ee7a52abcbe9e28192f73c0f6c8b5ea9"},
+]
+
+[[package]]
 name = "googleapis-common-protos"
 version = "1.63.2"
 description = "Common protobufs used in Google APIs"
@@ -2449,4 +2460,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "62bd851cd47ea360b660fc1c2fb424627721439b719ee9034ad2e59759aec0bd"
+content-hash = "595e588a437028fac27da6ed0a46fe11237752095893764af9a2ce98a5078ff4"
