@@ -32,5 +32,4 @@ This project implements a chat interface using Chainlit and LangChain, powered b
 - OpenRouter API key for accessing Gemini Pro 1.5
 
 ## Usage
-
 After starting the application, navigate to the provided local URL in your web browser to begin chatting with the AI assistant.
