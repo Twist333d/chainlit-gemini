@@ -4,7 +4,7 @@ from langchain.schema.runnable.config import RunnableConfig
 from langchain.memory import ConversationBufferMemory
 import chainlit as cl
 import yaml
-from langchain_openai import ChatOpenAI as GeminiPro15
+from langchain_google_genai import ChatGoogleGenerativeAI  # Import correct class
 import os
 from dotenv import load_dotenv
 
@@ -20,12 +20,11 @@ system_prompt = prompts.get('system_prompt')
 if system_prompt is None:
     raise ValueError("System prompt not found in prompts.yaml")
 
-# Initialize LLM (Gemini via OpenRouter)
+# Initialize LLM (Gemini from Google AI Studio)
 def get_llm():
-    return GeminiPro15(
-        model="google/gemini-pro-1.5",
-        openai_api_key=os.getenv("OPENROUTER_API_KEY"),
-        openai_api_base="https://openrouter.ai/api/v1",
+    return ChatGoogleGenerativeAI(
+        model="gemini-1.5-pro-exp-0827",
+        google_api_key=os.getenv("GOOGLE_API_KEY"),  # Pass API key here
         streaming=True
     )
 
