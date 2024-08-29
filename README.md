@@ -1,6 +1,7 @@
 # Gemini Chainlit Chat Application
 
-This project implements a chat interface using Chainlit and LangChain, powered by Google's Gemini Pro 1.5 model via OpenRouter.
+This project implements a chat interface using Chainlit and LangChain, powered by Google's Gemini Pro 1.5 model via 
+Google AI Studio.
 
 ## Features
 
@@ -13,8 +14,8 @@ This project implements a chat interface using Chainlit and LangChain, powered b
 
 ## Supported Functionalities
 
-- Supports Gemini 1.5 Pro model only
-- Uses langchain openai library to connect to open router
+- Supports Gemini 1.5 Pro model (or any other Google AI studio)
+- Uses langchain openai library to connect to 
 
 ## Setup
 
@@ -29,7 +30,7 @@ This project implements a chat interface using Chainlit and LangChain, powered b
 
 - Python 3.8+
 - Poetry for dependency management
-- OpenRouter API key for accessing Gemini Pro 1.5
+- Google AI Studio API Key for accessing Gemini Pro 1.5
 
 ## Usage
 After starting the application, navigate to the provided local URL in your web browser to begin chatting with the AI assistant.
