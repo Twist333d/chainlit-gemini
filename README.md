@@ -18,12 +18,12 @@ This project implements a chat interface using **Chainlit** and **LangChain**, p
 
 ## 🏗️ Setup
 
-1. 🔄 Clone the repository
-2. 🛠️ Setup poetry environment
-3. 📦 Install dependencies: `poetry install`
-4. 🔑 Set up your `.env` file with your Google AI Studio API key
-5. ✏️ Customize `prompts.yaml` with your desired system prompt
-6. 🏃 Run the application: `poetry run chainlit run app.py` or `chainlit run app.py`
+1. Clone the repository
+2. Setup poetry environment
+3. Install dependencies: `poetry install`
+4. Set up your `.env` file with your Google AI Studio API key
+5. Customize `prompts.yaml` with your desired system prompt
+6. Run the application: `poetry run chainlit run app.py` or `chainlit run app.py`
 
 ## 📋 Requirements
 
@@ -33,7 +33,7 @@ This project implements a chat interface using **Chainlit** and **LangChain**, p
 
 ## 🌍 Usage
 
-After starting the application, navigate to the provided local URL in your web browser to begin chatting with the AI assistant. Enjoy your journey into conversational AI! 🌟
+After starting the application, navigate to the provided local URL in your web browser to begin chatting with the Gemini.
 
 ## 📄 Code Structure
 
